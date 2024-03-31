@@ -1,0 +1,201 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+
+/* Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Custom CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+::selection {
+  color: black;
+  background-color: #bea060;
+}
+
+nav {
+  background-color: black;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #bea060;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  padding: 50px;
+}
+
+.header-left-side {
+  color: white;
+}
+
+.header-left-side h1 {
+  color: #bea060;
+  line-height: 1.2em;
+  font-size: 78px;
+  margin-bottom: 20px;
+  font-weight: 400 !important;
+}
+
+.header-left-side h2 {
+  color: #bea060;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.header-left-side p {
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #c1bfbf;
+  line-height: 2;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.buttons button {
+  padding: 20px 40px;
+  border: 2px solid #bea060;
+  background: transparent;
+  color: white;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #bea060;
+  transition: 0.7s;
+}
+
+.btn {
+  background-color: #bea060;
+  width: 100%;
+}
+
+.header-left-side h3 {
+  color: #c1bfbf;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+
+.header-right-side img {
+  width: 670px;
+  height: 884px;
+}
+
+/* Education Section */
+.slide-content.education {
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.slide-content.education h2 {
+  color: #bea060;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slide-content.education p {
+  color: #c1bfbf;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Skills Section */
+.slide-content.skills {
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+
+.slide-content.skills h2 {
+  color: #bea060;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.slide-content.skills ul {
+  color: #c1bfbf;
+  padding-left: 20px;
+}
+
+.slide-content.skills ul li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 20px;
+}
+
+.upper-section {
+  display: flex;
+  justify-content: center;
+}
+
+.upper-section a {
+  margin-right: 10px;
+}
+
+.upper-section i {
+  font-size: 24px;
+  color: white;
+}
+
+.lower-section {
+  text-align: center;
+}
+
+.lower-section h3 {
+  color: #c1bfbf;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
